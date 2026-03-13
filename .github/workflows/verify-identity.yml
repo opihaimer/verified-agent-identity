@@ -1,6 +1,4 @@
-me: Step 3 - Link Human to Agent
-        run: |
-                  node scripts/manualLinkHumanToAgent.js --challenge '{"name": "Legacy", "description": "Sologen AI Agent"}'name: Verify Human Identity
+name: Verify Human Identity
 
 on:
   workflow_dispatch:
